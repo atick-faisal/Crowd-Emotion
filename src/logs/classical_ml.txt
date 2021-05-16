@@ -1,0 +1,812 @@
+
+{
+    "timestamp": "2021-05-16 15:32:00.897672",
+    "model": "Random Forest",
+    "test_fold": "Fold 1",
+    "criterion": "gini",
+    "n_estimators": 32,
+    "max_depth": 16,
+    "training_time": 0.7296233177185059,
+    "testing_time": 0.01763629913330078,
+    "cm_atick": "[[64 13 22]\n [35 21 42]\n [21  8 69]]",
+    "cr_atick": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.69      0.65      0.67      1335",
+        "         1.0       0.23      0.22      0.22       390",
+        "         2.0       0.64      0.70      0.66      1158",
+        "",
+        "    accuracy                           0.61      2883",
+        "   macro avg       0.52      0.52      0.52      2883",
+        "weighted avg       0.61      0.61      0.61      2883",
+        ""
+    ],
+    "cm_valentina": "[[88  3  7]\n [40  4 55]\n [14 18 67]]",
+    "cr_valentina": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.57      0.89      0.70      1783",
+        "         1.0       0.01      0.04      0.02       378",
+        "         2.0       0.93      0.68      0.79      7327",
+        "",
+        "    accuracy                           0.69      9488",
+        "   macro avg       0.51      0.54      0.50      9488",
+        "weighted avg       0.83      0.69      0.74      9488",
+        ""
+    ]
+}
+
+{
+    "timestamp": "2021-05-16 15:32:32.333707",
+    "model": "Random Forest",
+    "test_fold": "Fold 2",
+    "criterion": "gini",
+    "n_estimators": 32,
+    "max_depth": 16,
+    "training_time": 0.7559316158294678,
+    "testing_time": 0.01703333854675293,
+    "cm_atick": "[[88  2  9]\n [20 32 46]\n [30 12 56]]",
+    "cr_atick": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.75      0.89      0.81      1402",
+        "         1.0       0.42      0.33      0.37       367",
+        "         2.0       0.67      0.57      0.62      1084",
+        "",
+        "    accuracy                           0.69      2853",
+        "   macro avg       0.62      0.59      0.60      2853",
+        "weighted avg       0.68      0.69      0.68      2853",
+        ""
+    ],
+    "cm_valentina": "[[81  3 15]\n [46  3 50]\n [ 7 16 76]]",
+    "cr_valentina": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.67      0.82      0.74      1783",
+        "         1.0       0.01      0.03      0.01       378",
+        "         2.0       0.92      0.76      0.84      7327",
+        "",
+        "    accuracy                           0.75      9488",
+        "   macro avg       0.53      0.54      0.53      9488",
+        "weighted avg       0.84      0.75      0.79      9488",
+        ""
+    ]
+}
+
+{
+    "timestamp": "2021-05-16 15:32:58.026347",
+    "model": "Random Forest",
+    "test_fold": "Fold 3",
+    "criterion": "gini",
+    "n_estimators": 32,
+    "max_depth": 16,
+    "training_time": 0.6963050365447998,
+    "testing_time": 0.016962051391601562,
+    "cm_atick": "[[58  4 37]\n [40 32 26]\n [24 24 51]]",
+    "cr_atick": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.63      0.58      0.61      1394",
+        "         1.0       0.32      0.33      0.32       479",
+        "         2.0       0.47      0.52      0.49      1136",
+        "",
+        "    accuracy                           0.52      3009",
+        "   macro avg       0.48      0.48      0.48      3009",
+        "weighted avg       0.52      0.52      0.52      3009",
+        ""
+    ],
+    "cm_valentina": "[[83  5 11]\n [46  7 46]\n [ 3  8 87]]",
+    "cr_valentina": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.77      0.83      0.80      1783",
+        "         1.0       0.04      0.07      0.05       378",
+        "         2.0       0.94      0.88      0.91      7327",
+        "",
+        "    accuracy                           0.84      9488",
+        "   macro avg       0.58      0.59      0.58      9488",
+        "weighted avg       0.87      0.84      0.85      9488",
+        ""
+    ]
+}
+
+{
+    "timestamp": "2021-05-16 15:33:17.683937",
+    "model": "Random Forest",
+    "test_fold": "Fold 4",
+    "criterion": "gini",
+    "n_estimators": 32,
+    "max_depth": 16,
+    "training_time": 0.6852624416351318,
+    "testing_time": 0.01659870147705078,
+    "cm_atick": "[[13 22 63]\n [12 36 51]\n [28  1 69]]",
+    "cr_atick": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.34      0.14      0.19      1503",
+        "         1.0       0.29      0.36      0.32       411",
+        "         2.0       0.41      0.70      0.52      1175",
+        "",
+        "    accuracy                           0.38      3089",
+        "   macro avg       0.35      0.40      0.35      3089",
+        "weighted avg       0.36      0.38      0.33      3089",
+        ""
+    ],
+    "cm_valentina": "[[23 51 25]\n [52  4 42]\n [ 4  6 89]]",
+    "cr_valentina": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.44      0.23      0.30      1783",
+        "         1.0       0.01      0.04      0.02       378",
+        "         2.0       0.91      0.89      0.90      7327",
+        "",
+        "    accuracy                           0.73      9488",
+        "   macro avg       0.46      0.39      0.41      9488",
+        "weighted avg       0.79      0.73      0.76      9488",
+        ""
+    ]
+}
+
+{
+    "timestamp": "2021-05-16 15:33:38.185774",
+    "model": "Random Forest",
+    "test_fold": "Fold 5",
+    "criterion": "gini",
+    "n_estimators": 32,
+    "max_depth": 16,
+    "training_time": 0.7311177253723145,
+    "testing_time": 0.016726970672607422,
+    "cm_atick": "[[82  1 16]\n [19 46 33]\n [20  5 73]]",
+    "cr_atick": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.76      0.82      0.79      1349",
+        "         1.0       0.72      0.47      0.57       494",
+        "         2.0       0.70      0.74      0.72      1205",
+        "",
+        "    accuracy                           0.73      3048",
+        "   macro avg       0.73      0.68      0.69      3048",
+        "weighted avg       0.73      0.73      0.72      3048",
+        ""
+    ],
+    "cm_valentina": "[[81  4 13]\n [58  3 37]\n [ 8  9 82]]",
+    "cr_valentina": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.64      0.82      0.72      1783",
+        "         1.0       0.02      0.04      0.03       378",
+        "         2.0       0.94      0.82      0.88      7327",
+        "",
+        "    accuracy                           0.79      9488",
+        "   macro avg       0.53      0.56      0.54      9488",
+        "weighted avg       0.85      0.79      0.81      9488",
+        ""
+    ]
+}
+
+
+
+{
+    "timestamp": "2021-05-16 15:35:10.426409",
+    "model": "Random Forest",
+    "test_fold": "Fold 1",
+    "criterion": "gini",
+    "n_estimators": 32,
+    "max_depth": 16,
+    "class_weight": {
+        "0": 0.71,
+        "1": 2.32,
+        "2": 0.86
+    },
+    "training_time": 0.7192866802215576,
+    "testing_time": 0.017286300659179688,
+    "cm_atick": "[[64 14 21]\n [35 24 40]\n [20 12 66]]",
+    "cr_atick": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.70      0.64      0.67      1335",
+        "         1.0       0.22      0.25      0.23       390",
+        "         2.0       0.64      0.67      0.65      1158",
+        "",
+        "    accuracy                           0.60      2883",
+        "   macro avg       0.52      0.52      0.52      2883",
+        "weighted avg       0.61      0.60      0.60      2883",
+        ""
+    ],
+    "cm_valentina": "[[90  3  6]\n [38  6 55]\n [13 22 63]]",
+    "cr_valentina": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.59      0.91      0.71      1783",
+        "         1.0       0.01      0.06      0.02       378",
+        "         2.0       0.94      0.64      0.76      7327",
+        "",
+        "    accuracy                           0.67      9488",
+        "   macro avg       0.51      0.54      0.50      9488",
+        "weighted avg       0.83      0.67      0.72      9488",
+        ""
+    ]
+}
+
+{
+    "timestamp": "2021-05-16 15:35:33.495148",
+    "model": "Random Forest",
+    "test_fold": "Fold 2",
+    "criterion": "gini",
+    "n_estimators": 32,
+    "max_depth": 16,
+    "class_weight": {
+        "0": 0.71,
+        "1": 2.32,
+        "2": 0.86
+    },
+    "training_time": 0.7466104030609131,
+    "testing_time": 0.01723313331604004,
+    "cm_atick": "[[87  2 10]\n [21 34 43]\n [33 13 53]]",
+    "cr_atick": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.74      0.88      0.80      1402",
+        "         1.0       0.42      0.35      0.38       367",
+        "         2.0       0.66      0.53      0.59      1084",
+        "",
+        "    accuracy                           0.68      2853",
+        "   macro avg       0.60      0.59      0.59      2853",
+        "weighted avg       0.66      0.68      0.67      2853",
+        ""
+    ],
+    "cm_valentina": "[[84  2 13]\n [46  5 47]\n [ 8 16 74]]",
+    "cr_valentina": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.66      0.85      0.74      1783",
+        "         1.0       0.02      0.06      0.03       378",
+        "         2.0       0.93      0.75      0.83      7327",
+        "",
+        "    accuracy                           0.74      9488",
+        "   macro avg       0.53      0.55      0.53      9488",
+        "weighted avg       0.84      0.74      0.78      9488",
+        ""
+    ]
+}
+
+{
+    "timestamp": "2021-05-16 15:35:59.823426",
+    "model": "Random Forest",
+    "test_fold": "Fold 3",
+    "criterion": "gini",
+    "n_estimators": 32,
+    "max_depth": 16,
+    "class_weight": {
+        "0": 0.71,
+        "1": 2.32,
+        "2": 0.86
+    },
+    "training_time": 0.7021324634552002,
+    "testing_time": 0.016857147216796875,
+    "cm_atick": "[[54  7 37]\n [37 39 23]\n [23 25 50]]",
+    "cr_atick": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.63      0.55      0.58      1394",
+        "         1.0       0.32      0.39      0.35       479",
+        "         2.0       0.47      0.50      0.49      1136",
+        "",
+        "    accuracy                           0.51      3009",
+        "   macro avg       0.47      0.48      0.47      3009",
+        "weighted avg       0.52      0.51      0.51      3009",
+        ""
+    ],
+    "cm_valentina": "[[80  3 15]\n [45 10 44]\n [ 3 14 81]]",
+    "cr_valentina": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.76      0.81      0.78      1783",
+        "         1.0       0.03      0.10      0.05       378",
+        "         2.0       0.93      0.81      0.87      7327",
+        "",
+        "    accuracy                           0.78      9488",
+        "   macro avg       0.57      0.57      0.57      9488",
+        "weighted avg       0.86      0.78      0.82      9488",
+        ""
+    ]
+}
+
+{
+    "timestamp": "2021-05-16 15:36:17.875920",
+    "model": "Random Forest",
+    "test_fold": "Fold 4",
+    "criterion": "gini",
+    "n_estimators": 32,
+    "max_depth": 16,
+    "class_weight": {
+        "0": 0.71,
+        "1": 2.32,
+        "2": 0.86
+    },
+    "training_time": 0.6946721076965332,
+    "testing_time": 0.017116546630859375,
+    "cm_atick": "[[15 18 65]\n [14 40 44]\n [31  2 66]]",
+    "cr_atick": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.35      0.15      0.21      1503",
+        "         1.0       0.35      0.41      0.38       411",
+        "         2.0       0.40      0.66      0.50      1175",
+        "",
+        "    accuracy                           0.38      3089",
+        "   macro avg       0.37      0.41      0.36      3089",
+        "weighted avg       0.37      0.38      0.34      3089",
+        ""
+    ],
+    "cm_valentina": "[[29 28 41]\n [52  5 41]\n [ 5 10 84]]",
+    "cr_valentina": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.47      0.30      0.36      1783",
+        "         1.0       0.02      0.06      0.03       378",
+        "         2.0       0.87      0.84      0.86      7327",
+        "",
+        "    accuracy                           0.71      9488",
+        "   macro avg       0.45      0.40      0.42      9488",
+        "weighted avg       0.76      0.71      0.73      9488",
+        ""
+    ]
+}
+
+{
+    "timestamp": "2021-05-16 15:36:34.801359",
+    "model": "Random Forest",
+    "test_fold": "Fold 5",
+    "criterion": "gini",
+    "n_estimators": 32,
+    "max_depth": 16,
+    "class_weight": {
+        "0": 0.71,
+        "1": 2.32,
+        "2": 0.86
+    },
+    "training_time": 0.7516326904296875,
+    "testing_time": 0.017600297927856445,
+    "cm_atick": "[[80  3 15]\n [12 65 21]\n [18 19 62]]",
+    "cr_atick": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.80      0.81      0.80      1349",
+        "         1.0       0.53      0.66      0.59       494",
+        "         2.0       0.71      0.63      0.67      1205",
+        "",
+        "    accuracy                           0.71      3048",
+        "   macro avg       0.68      0.70      0.69      3048",
+        "weighted avg       0.72      0.71      0.71      3048",
+        ""
+    ],
+    "cm_valentina": "[[79  4 16]\n [52 10 36]\n [ 8 22 69]]",
+    "cr_valentina": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.64      0.79      0.71      1783",
+        "         1.0       0.02      0.11      0.04       378",
+        "         2.0       0.92      0.69      0.79      7327",
+        "",
+        "    accuracy                           0.69      9488",
+        "   macro avg       0.53      0.53      0.51      9488",
+        "weighted avg       0.83      0.69      0.75      9488",
+        ""
+    ]
+}
+
+{
+    "timestamp": "2021-05-16 15:37:50.876474",
+    "model": "SVM",
+    "test_fold": "Fold 1",
+    "C": 3,
+    "training_time": 5.158986568450928,
+    "testing_time": 0.016893863677978516,
+    "cm_atick": "[[71  7 20]\n [37 16 46]\n [29  3 67]]",
+    "cr_atick": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.66      0.71      0.69      1335",
+        "         1.0       0.32      0.16      0.22       390",
+        "         2.0       0.63      0.68      0.65      1158",
+        "",
+        "    accuracy                           0.62      2883",
+        "   macro avg       0.54      0.52      0.52      2883",
+        "weighted avg       0.60      0.62      0.61      2883",
+        ""
+    ],
+    "cm_valentina": "[[91  1  6]\n [49  4 46]\n [15 13 70]]",
+    "cr_valentina": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.55      0.92      0.69      1783",
+        "         1.0       0.02      0.05      0.03       378",
+        "         2.0       0.95      0.70      0.81      7327",
+        "",
+        "    accuracy                           0.72      9488",
+        "   macro avg       0.50      0.56      0.51      9488",
+        "weighted avg       0.83      0.72      0.75      9488",
+        ""
+    ]
+}
+
+{
+    "timestamp": "2021-05-16 15:38:52.627039",
+    "model": "SVM",
+    "test_fold": "Fold 2",
+    "C": 3,
+    "training_time": 5.28922963142395,
+    "testing_time": 0.016299962997436523,
+    "cm_atick": "[[85  7  6]\n [28 27 43]\n [32  5 61]]",
+    "cr_atick": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.72      0.86      0.78      1402",
+        "         1.0       0.38      0.28      0.32       367",
+        "         2.0       0.73      0.62      0.67      1084",
+        "",
+        "    accuracy                           0.69      2853",
+        "   macro avg       0.61      0.58      0.59      2853",
+        "weighted avg       0.68      0.69      0.68      2853",
+        ""
+    ],
+    "cm_valentina": "[[89  1  8]\n [56  3 39]\n [16 15 68]]",
+    "cr_valentina": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.52      0.90      0.66      1783",
+        "         1.0       0.01      0.04      0.02       378",
+        "         2.0       0.94      0.68      0.79      7327",
+        "",
+        "    accuracy                           0.70      9488",
+        "   macro avg       0.49      0.54      0.49      9488",
+        "weighted avg       0.83      0.70      0.74      9488",
+        ""
+    ]
+}
+
+{
+    "timestamp": "2021-05-16 15:39:42.171358",
+    "model": "SVM",
+    "test_fold": "Fold 3",
+    "C": 3,
+    "training_time": 4.303286552429199,
+    "testing_time": 0.01636958122253418,
+    "cm_atick": "[[59  5 35]\n [45 28 26]\n [26 14 59]]",
+    "cr_atick": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.61      0.60      0.60      1394",
+        "         1.0       0.37      0.28      0.32       479",
+        "         2.0       0.52      0.59      0.55      1136",
+        "",
+        "    accuracy                           0.54      3009",
+        "   macro avg       0.50      0.49      0.49      3009",
+        "weighted avg       0.54      0.54      0.54      3009",
+        ""
+    ],
+    "cm_valentina": "[[87  2 10]\n [55  7 37]\n [ 8  7 83]]",
+    "cr_valentina": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.66      0.88      0.75      1783",
+        "         1.0       0.04      0.07      0.05       378",
+        "         2.0       0.95      0.84      0.89      7327",
+        "",
+        "    accuracy                           0.82      9488",
+        "   macro avg       0.55      0.60      0.57      9488",
+        "weighted avg       0.86      0.82      0.83      9488",
+        ""
+    ]
+}
+
+{
+    "timestamp": "2021-05-16 15:40:19.917480",
+    "model": "SVM",
+    "test_fold": "Fold 4",
+    "C": 3,
+    "training_time": 3.837049722671509,
+    "testing_time": 0.016127586364746094,
+    "cm_atick": "[[11 22 66]\n [13 46 40]\n [34  1 64]]",
+    "cr_atick": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.27      0.11      0.16      1503",
+        "         1.0       0.35      0.46      0.40       411",
+        "         2.0       0.39      0.64      0.49      1175",
+        "",
+        "    accuracy                           0.36      3089",
+        "   macro avg       0.34      0.41      0.35      3089",
+        "weighted avg       0.33      0.36      0.32      3089",
+        ""
+    ],
+    "cm_valentina": "[[26 23 49]\n [64  3 31]\n [ 3  4 91]]",
+    "cr_valentina": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.48      0.26      0.34      1783",
+        "         1.0       0.02      0.03      0.02       378",
+        "         2.0       0.87      0.92      0.89      7327",
+        "",
+        "    accuracy                           0.76      9488",
+        "   macro avg       0.46      0.40      0.42      9488",
+        "weighted avg       0.76      0.76      0.75      9488",
+        ""
+    ]
+}
+
+{
+    "timestamp": "2021-05-16 15:40:47.917981",
+    "model": "SVM",
+    "test_fold": "Fold 5",
+    "C": 3,
+    "training_time": 5.11815333366394,
+    "testing_time": 0.01635003089904785,
+    "cm_atick": "[[79  6 14]\n [40 32 27]\n [17  8 74]]",
+    "cr_atick": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.73      0.80      0.76      1349",
+        "         1.0       0.47      0.32      0.38       494",
+        "         2.0       0.73      0.75      0.74      1205",
+        "",
+        "    accuracy                           0.70      3048",
+        "   macro avg       0.64      0.62      0.63      3048",
+        "weighted avg       0.69      0.70      0.69      3048",
+        ""
+    ],
+    "cm_valentina": "[[81  8  9]\n [67  4 28]\n [ 7  5 86]]",
+    "cr_valentina": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.65      0.82      0.72      1783",
+        "         1.0       0.03      0.04      0.03       378",
+        "         2.0       0.96      0.87      0.91      7327",
+        "",
+        "    accuracy                           0.83      9488",
+        "   macro avg       0.54      0.58      0.56      9488",
+        "weighted avg       0.86      0.83      0.84      9488",
+        ""
+    ]
+}
+
+{
+    "timestamp": "2021-05-16 15:41:33.458393",
+    "model": "SVM",
+    "test_fold": "Fold 1",
+    "C": 3,
+    "class_weight": {
+        "0": 0.71,
+        "1": 2.32,
+        "2": 0.86
+    },
+    "training_time": 5.877077579498291,
+    "testing_time": 0.016450881958007812,
+    "cm_atick": "[[60 20 19]\n [24 43 31]\n [18 25 56]]",
+    "cr_atick": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.72      0.60      0.66      1335",
+        "         1.0       0.23      0.44      0.30       390",
+        "         2.0       0.63      0.56      0.59      1158",
+        "",
+        "    accuracy                           0.56      2883",
+        "   macro avg       0.53      0.53      0.52      2883",
+        "weighted avg       0.62      0.56      0.58      2883",
+        ""
+    ],
+    "cm_valentina": "[[80 13  6]\n [36 19 44]\n [ 8 47 44]]",
+    "cr_valentina": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.65      0.81      0.72      1783",
+        "         1.0       0.02      0.19      0.04       378",
+        "         2.0       0.92      0.44      0.60      7327",
+        "",
+        "    accuracy                           0.50      9488",
+        "   macro avg       0.53      0.48      0.45      9488",
+        "weighted avg       0.83      0.50      0.60      9488",
+        ""
+    ]
+}
+
+{
+    "timestamp": "2021-05-16 15:42:15.069558",
+    "model": "SVM",
+    "test_fold": "Fold 2",
+    "C": 3,
+    "class_weight": {
+        "0": 0.71,
+        "1": 2.32,
+        "2": 0.86
+    },
+    "training_time": 6.539464473724365,
+    "testing_time": 0.016622543334960938,
+    "cm_atick": "[[73 19  6]\n [13 57 28]\n [22 24 52]]",
+    "cr_atick": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.78      0.74      0.76      1402",
+        "         1.0       0.28      0.57      0.38       367",
+        "         2.0       0.74      0.52      0.61      1084",
+        "",
+        "    accuracy                           0.64      2853",
+        "   macro avg       0.60      0.61      0.58      2853",
+        "weighted avg       0.70      0.64      0.65      2853",
+        ""
+    ],
+    "cm_valentina": "[[76 14  9]\n [46 17 35]\n [10 43 46]]",
+    "cr_valentina": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.60      0.76      0.67      1783",
+        "         1.0       0.02      0.18      0.03       378",
+        "         2.0       0.92      0.46      0.62      7327",
+        "",
+        "    accuracy                           0.51      9488",
+        "   macro avg       0.51      0.47      0.44      9488",
+        "weighted avg       0.82      0.51      0.60      9488",
+        ""
+    ]
+}
+
+{
+    "timestamp": "2021-05-16 15:42:44.698741",
+    "model": "SVM",
+    "test_fold": "Fold 3",
+    "C": 3,
+    "class_weight": {
+        "0": 0.71,
+        "1": 2.32,
+        "2": 0.86
+    },
+    "training_time": 5.398835897445679,
+    "testing_time": 0.016788721084594727,
+    "cm_atick": "[[46 17 35]\n [21 60 18]\n [13 35 50]]",
+    "cr_atick": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.72      0.46      0.56      1394",
+        "         1.0       0.31      0.61      0.41       479",
+        "         2.0       0.50      0.51      0.50      1136",
+        "",
+        "    accuracy                           0.50      3009",
+        "   macro avg       0.51      0.53      0.49      3009",
+        "weighted avg       0.57      0.50      0.52      3009",
+        ""
+    ],
+    "cm_valentina": "[[72 16 11]\n [48 17 33]\n [ 4 36 58]]",
+    "cr_valentina": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.71      0.72      0.71      1783",
+        "         1.0       0.02      0.18      0.04       378",
+        "         2.0       0.93      0.58      0.72      7327",
+        "",
+        "    accuracy                           0.59      9488",
+        "   macro avg       0.55      0.50      0.49      9488",
+        "weighted avg       0.85      0.59      0.69      9488",
+        ""
+    ]
+}
+
+{
+    "timestamp": "2021-05-16 15:43:15.432122",
+    "model": "SVM",
+    "test_fold": "Fold 4",
+    "C": 3,
+    "class_weight": {
+        "0": 0.71,
+        "1": 2.32,
+        "2": 0.86
+    },
+    "training_time": 4.697041749954224,
+    "testing_time": 0.017782926559448242,
+    "cm_atick": "[[ 9 33 56]\n [ 2 80 17]\n [29 10 60]]",
+    "cr_atick": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.28      0.09      0.14      1503",
+        "         1.0       0.34      0.81      0.48       411",
+        "         2.0       0.43      0.60      0.50      1175",
+        "",
+        "    accuracy                           0.38      3089",
+        "   macro avg       0.35      0.50      0.37      3089",
+        "weighted avg       0.35      0.38      0.32      3089",
+        ""
+    ],
+    "cm_valentina": "[[21 30 48]\n [56 17 25]\n [ 1 20 77]]",
+    "cr_valentina": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.52      0.21      0.30      1783",
+        "         1.0       0.03      0.18      0.05       378",
+        "         2.0       0.86      0.78      0.81      7327",
+        "",
+        "    accuracy                           0.65      9488",
+        "   macro avg       0.47      0.39      0.39      9488",
+        "weighted avg       0.76      0.65      0.69      9488",
+        ""
+    ]
+}
+
+{
+    "timestamp": "2021-05-16 15:43:48.232997",
+    "model": "SVM",
+    "test_fold": "Fold 5",
+    "C": 3,
+    "class_weight": {
+        "0": 0.71,
+        "1": 2.32,
+        "2": 0.86
+    },
+    "training_time": 6.191074371337891,
+    "testing_time": 0.017502784729003906,
+    "cm_atick": "[[24 63 12]\n [17 76  6]\n [ 7 36 56]]",
+    "cr_atick": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.65      0.24      0.36      1349",
+        "         1.0       0.23      0.76      0.35       494",
+        "         2.0       0.77      0.56      0.65      1205",
+        "",
+        "    accuracy                           0.45      3048",
+        "   macro avg       0.55      0.52      0.45      3048",
+        "weighted avg       0.63      0.45      0.47      3048",
+        ""
+    ],
+    "cm_valentina": "[[71 19  9]\n [58 18 22]\n [ 3 36 60]]",
+    "cr_valentina": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.73      0.72      0.72      1783",
+        "         1.0       0.02      0.19      0.04       378",
+        "         2.0       0.95      0.60      0.74      7327",
+        "",
+        "    accuracy                           0.61      9488",
+        "   macro avg       0.57      0.50      0.50      9488",
+        "weighted avg       0.87      0.61      0.71      9488",
+        ""
+    ]
+}
+
+{
+    "timestamp": "2021-05-16 15:55:31.293294",
+    "model": "SVM",
+    "test_fold": "Fold 4",
+    "C": 3,
+    "class_weight": {
+        "0": 0.71,
+        "1": 2.32,
+        "2": 0.86
+    },
+    "training_time": 4.625084400177002,
+    "testing_time": 0.016312122344970703,
+    "cm_atick": "[[36 37 26]\n [ 2 80 17]\n [29 10 60]]",
+    "cr_atick": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.31      0.37      0.33       427",
+        "         1.0       0.54      0.81      0.64       411",
+        "         2.0       0.80      0.60      0.68      1175",
+        "",
+        "    accuracy                           0.59      2013",
+        "   macro avg       0.55      0.59      0.55      2013",
+        "weighted avg       0.64      0.59      0.60      2013",
+        ""
+    ],
+    "cm_valentina": "[[21 30 48]\n [56 17 25]\n [ 1 20 77]]",
+    "cr_valentina": [
+        "              precision    recall  f1-score   support",
+        "",
+        "         0.0       0.52      0.21      0.30      1783",
+        "         1.0       0.03      0.18      0.05       378",
+        "         2.0       0.86      0.78      0.81      7327",
+        "",
+        "    accuracy                           0.65      9488",
+        "   macro avg       0.47      0.39      0.39      9488",
+        "weighted avg       0.76      0.65      0.69      9488",
+        ""
+    ]
+}
